@@ -71,7 +71,7 @@ function initScrollSuave() {
 function initRolamento() {
   const section = document.querySelectorAll('.js-scroll');
   if (section.length) {
-    const windowApresentation = window.innerHeight * 0.7;
+    const windowApresentation = window.innerHeight * 0.8;
 
     function animaScroll() {
       section.forEach((section) => {
